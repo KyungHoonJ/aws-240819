@@ -154,7 +154,7 @@ jobs:
 
   deploy_backend:
     needs:
-      - test-backend
+      - test_backend
       - test_node
       - test_mysql
     runs-on: ubuntu-latest
